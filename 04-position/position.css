@@ -1,0 +1,33 @@
+.contenedor{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+/* Esto se le llama posicionamiento */
+.conteneedor .iteem{
+    background: #ff8000;
+
+    /* Columnas */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    /* Atajo en columnas*/
+    grid-column: 2 / 4;
+
+    /* Filas */
+    /* grid-row-start: 1;
+    grid-row-end: 3 ; */
+
+    /* Atajo en filas */
+    grid-row: 1 / 5;
+}
+
+/* Hacer mas grande el elemento ya se para columnas o filas */
+
+.contenedor .item{
+    background: #ff8000;
+    grid-column: span 3;
+    grid-row:3 / span 2;
+}
