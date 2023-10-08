@@ -1,0 +1,17 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 20px;
+    height: 700px;
+
+    /* Alinea Horizontal */
+    justify-content: space-between;
+    /* start | center | end | space-around | space-between | space-evenly */
+
+
+    /* Alinea Verticalmente */
+    align-content: space-between;
+    /* start | center | end | space-around | space-between | space-evenly/ */
+
+}

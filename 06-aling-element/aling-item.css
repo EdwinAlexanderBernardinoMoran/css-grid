@@ -16,6 +16,6 @@
 
 .contenedor .item{
     background: #ff8000;
-    justify-self: stretch;
-    align-self: stretch;
+    justify-self: center;
+    align-self: center;
 }
